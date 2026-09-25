@@ -89,8 +89,10 @@ def decrypt(ct):
 
     return candidates
 
-
-if __name__ == "__main__":
+def decrypt_challenge():
+    """
+    Decrypt the provided ciphertext
+    """
     ct = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
 
     candidates = decrypt(ct)
@@ -102,3 +104,6 @@ if __name__ == "__main__":
             f"IC={ic:.4f} "
             f"plaintext={plaintext!r}"
         )
+
+if __name__ == "__main__":
+    decrypt_challenge()

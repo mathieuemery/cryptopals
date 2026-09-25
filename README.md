@@ -15,11 +15,6 @@
 
  If you need cryptography for a real application, use a well-established and professionally reviewed cryptographic library rather than implementing cryptographic primitives yourself.
 
- ## Requirements
-
-- Python 3
-- No external dependencies unless otherwise noted
-
  ## Structure
 
  The repository is organized according to the Cryptopals challenge sets:
