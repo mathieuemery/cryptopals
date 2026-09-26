@@ -1,10 +1,19 @@
+# Implement repeating-key XOR
+
 def encrypt(message, key):
+    """
+    Encrypt a message by repeatedly xor the key
+    """
     return bytes(
         byte ^ key[i % len(key)]
         for i, byte in enumerate(message)
     )
 
 def repeated_key_xor():
+    """
+    Validate we get the correct ciphertext
+    for a given plaintext
+    """
     pt = b"""Burning 'em, if you ain't quick and nimble
 I go crazy when I hear a cymbal"""
     key = b"ICE"

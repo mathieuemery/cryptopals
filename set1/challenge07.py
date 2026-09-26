@@ -1,3 +1,5 @@
+# AES in ECB mode
+
 import base64
 from primitives.aes_ecb import decrypt_block
 

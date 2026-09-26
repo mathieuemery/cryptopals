@@ -1,3 +1,5 @@
+# Break repeating-key XOR
+
 import base64
 
 def hamming_distance(a, b):
@@ -90,7 +92,8 @@ def decrypt(ct, key):
 
 def decrypt_challenge():
     """
-    Decrypt the file provided
+    Decrypt the file provided by finding the key length
+    and then bruteforce the key one byte at a time
     """
     with open("data/6.txt", "r") as f:
         ciphertext = base64.b64decode(f.read())

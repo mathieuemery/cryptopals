@@ -1,3 +1,5 @@
+# Convert hex to base64
+
 from utils.hex_to_b64 import hex_to_b64
 
 def validate_implementation():

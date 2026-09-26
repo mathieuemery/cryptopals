@@ -1,3 +1,5 @@
+# Single-byte XOR cipher
+
 from collections import Counter
 
 # Taken from https://www.math.stonybrook.edu/~scott/papers/MSTP/crypto/2I_m_Substitute.html

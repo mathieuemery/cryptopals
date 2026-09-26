@@ -1,3 +1,5 @@
+# Detect AES in ECB mode
+
 import base64
 
 def detect_aes_ecb(ciphertexts):
