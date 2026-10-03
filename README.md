@@ -1,7 +1,7 @@
 
 # Cryptopals Challenges
 
- My solutions to the [Cryptopals Crypto Challenges](<https://cryptopals.com/>) implemented in Python 3.
+ My solutions to the [Cryptopals Crypto Challenges](<https://cryptopals.com/>) implemented in Python 3 (unfinished yet).
 
  The goal of this repository is to document my progress while learning about cryptography, Python, and common cryptographic vulnerabilities.
 
