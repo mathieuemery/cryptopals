@@ -1,4 +1,5 @@
 # Implement Secure Remote Password (SRP)
+
 from primitives.srp import Client, Server
 
 def validate():

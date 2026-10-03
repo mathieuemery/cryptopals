@@ -1,4 +1,5 @@
 # Offline dictionary attack on simplified SRP
+
 from primitives.srp import k, g, N, sha256, to_int
 import secrets
 import hashlib
