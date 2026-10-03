@@ -1,3 +1,5 @@
+# Implement and break HMAC-SHA1 with an artificial timing leak (Server)
+
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 from primitives.hmac_sha1 import HMAC_SHA1

@@ -1,10 +1,10 @@
+# Break a SHA-1 keyed MAC using length extension
 # Ressource used: https://www.herongyang.com/Cryptography/SHA1-Message-Digest-Algorithm-Overview.html
 
 from primitives.sha1_mac import compute_mac, verify_mac
 
 import struct
 from functools import reduce
-
 
 class SHA1:
     """

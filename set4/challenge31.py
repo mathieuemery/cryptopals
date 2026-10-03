@@ -1,3 +1,5 @@
+# Implement and break HMAC-SHA1 with an artificial timing leak (Client)
+
 import time
 import urllib.request
 import urllib.parse

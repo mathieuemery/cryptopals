@@ -1,3 +1,5 @@
+# Recover the key from CBC with IV=Key
+
 from primitives.aes_cbc import aes_cbc_decrypt, aes_cbc_encrypt, fixed_xor
 
 prefix = b"comment1=cooking%20MCs;userdata="

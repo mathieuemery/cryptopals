@@ -1,3 +1,5 @@
+# Break an MD4 keyed MAC using length extension
+
 from primitives.md4 import MD4
 import secrets
 import struct

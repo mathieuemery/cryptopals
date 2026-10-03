@@ -1,3 +1,5 @@
+# Implement a SHA-1 keyed MAC
+
 from primitives.sha1_mac import compute_mac, verify_mac
 
 def validate():
