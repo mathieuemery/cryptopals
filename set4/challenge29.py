@@ -5,6 +5,7 @@ from primitives.sha1_mac import compute_mac, verify_mac
 import struct
 from functools import reduce
 
+
 class SHA1:
     """
     An implementation of the SHA-1 hash that allows
@@ -167,7 +168,7 @@ def attack_construction():
 
     if verify_mac(forged_message, forged_mac):
         print("Forged mac is correct")
-        print("Successfully used message: ", forged_message)
+        print("Successfully forged message:", forged_message)
 
 
 if __name__ == "__main__":

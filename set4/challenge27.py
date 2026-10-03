@@ -13,7 +13,7 @@ def validate_ascii(pt):
     """
     for byte in pt:
         if byte >= 128:
-            raise Exception("Non-ASCII plaintext: ", pt)
+            raise Exception("Non-ASCII plaintext:", pt)
 
 def profile_for(input):
     """
