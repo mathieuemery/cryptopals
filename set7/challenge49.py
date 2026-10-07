@@ -35,6 +35,9 @@ def validate_message(request):
 
 
 def create_legitimate_message():
+    """
+    Create a legitimate message that would have been intercepted.
+    """
     # Here we say that our ID is the 45, this request is not for us
     intercepted_message = b'from=#12&to=#23&amount=#1000000'
     iv = new_iv()
