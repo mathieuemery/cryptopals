@@ -75,7 +75,6 @@ def find_key(m):
     """
     Find the private key of Bob.
     """
-    # 'Public key' of Eve
     residues = []
 
     for r in factors[:12]:
